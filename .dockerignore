@@ -1,0 +1,58 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Development and testing
+tests/
+test/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*
+
+# Local configuration
+instance/
+.env
+*.log
+logs/
+
+# Documentation
+docs/
+*.md
+README*
+
+# Build and dist
+build/
+dist/
